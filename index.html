@@ -43,6 +43,18 @@
                         <li>
                             <a class="page-scroll" href="#about">About</a>
                         </li>
+                        <li>
+                            <a class="page-scroll" href="#researchs16">S16</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="#researchf15">F15</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="#researchs15">S15</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="#researchf14">F14</a>
+                        </li>
                         <!--    <li>
                             <a class="page-scroll" href="#services">Services</a>
                         </li> -->
@@ -77,14 +89,27 @@
                         <h2 class="section-heading">What is DNA Sequencing?</h2>
                         <hr class="light">
                         <p class="text-faded">Mapper speed remains a bottleneck in DNA read mapping. Processing and aligning billions
-                        of reads take a substantial amount of time, and there is a quest to build faster and better
-                        algorithms to improve runtime and throughput. In order to further the use DNA sequencing
+                            of reads take a substantial amount of time, and there is a quest to build faster and better
+                            algorithms to improve runtime and throughput. In order to further the use DNA sequencing
                         technology, it’s important to make it accessible and efficient.</p>
                     </div>
                 </div>
             </div>
         </section>
-        <section id="research">
+        <section id="links" class="bg-dark">
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-lg-12 col-md-6 text-center">
+                        <div class="service-box">
+                            <i class="fa fa-4x fa-file-text wow bounceIn text-primary"></i>
+                            <h3></h3>
+                            <a href="cmu/spring16/AcceleratingDNAReadMapping.pdf" class="btn btn-primary btn-xl wow">Research Work (F15 to S16)</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="researchs16">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 text-center">
@@ -126,12 +151,12 @@
                 </div>
             </div>
         </section>
-        <section class="bg-primary">
+        <section id="researchf15" class="bg-primary">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 text-center">
                         <h2 class="section-heading">Fall 2015</h2>
-                        <hr class="primary">
+                        <hr class="light">
                     </div>
                 </div>
                 <div class="row">
@@ -150,167 +175,104 @@
                 </div>
             </div>
         </section>
-        <!--  <section id="services">
+        <section id="researchs15" class="bg-light">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 text-center">
-                        <h2 class="section-heading">At Your Service</h2>
+                        <h2 class="section-heading">Spring 2015</h2>
                         <hr class="primary">
                     </div>
                 </div>
-            </div>
-            <div class="container">
                 <div class="row">
-                    <div class="col-lg-3 col-md-6 text-center">
-                        <div class="service-box">
-                            <i class="fa fa-4x fa-diamond wow bounceIn text-primary"></i>
-                            <h3>Sturdy Templates</h3>
-                            <p class="text-muted">Our templates are updated regularly so they don't break.</p>
+                    <h3 class="section-subheading"><b>Optimal Seeds Solver</b></h3>
+                    <p>
+                        Optimizing seed selection is an important problem in read mapping. The number of non-overlapping seeds a mapper selects determines the sensitivity of the mapper while the total frequency of all selected seeds determines the speed of the mapper. Modern seed-and-extend mappers usually select seeds with either an equal and fixed-length scheme or with an inflexible placement scheme, both of which limit the ability of the mapper in selecting less frequent seeds to speed up the mapping process. Therefore, it is crucial to develop a new algorithm that can adjust both the individual seed length and the seed placement, as well as derive less frequent seeds.
+                    </p>
+                </div>
+                <div class="row">
+                    <h3 class="section-subheading"><b>Paper</b></h3>
+                    <p> We published a paper in the <a href="http://bioinformatics.oxfordjournals.org/">Oxford Bioinformatics Journal</a>, link below. </p>
+                </div>
+                <div class="container text-center">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-5 text-center">
+                            <div class="service-box">
+                                <i class="fa fa-4x fa-github wow bounceIn text-primary"></i>
+                                <h3></h3>
+                                <a href="https://github.com/CMU-SAFARI/optimal-seed-solver" class="btn btn-primary btn-xl wow">View On <strong>GitHub</strong></a>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 text-center">
-                        <div class="service-box">
-                            <i class="fa fa-4x fa-paper-plane wow bounceIn text-primary" data-wow-delay=".1s"></i>
-                            <h3>Ready to Ship</h3>
-                            <p class="text-muted">You can use this theme as is, or you can make changes!</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 text-center">
-                        <div class="service-box">
-                            <i class="fa fa-4x fa-newspaper-o wow bounceIn text-primary" data-wow-delay=".2s"></i>
-                            <h3>Up to Date</h3>
-                            <p class="text-muted">We update dependencies to keep things fresh.</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 text-center">
-                        <div class="service-box">
-                            <i class="fa fa-4x fa-heart wow bounceIn text-primary" data-wow-delay=".3s"></i>
-                            <h3>Made with Love</h3>
-                            <p class="text-muted">You have to make your websites with love these days!</p>
+                        <div class="col-lg-6 col-md-5 text-center">
+                            <div class="service-box">
+                                <i class="fa fa-4x fa-file-text wow bounceIn text-primary"></i>
+                                <h3></h3>
+                                <a href="http://bioinformatics.oxfordjournals.org/content/early/2016/01/20/bioinformatics.btv670.abstract" class="btn btn-primary btn-xl wow">Research Paper</strong></a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="no-padding" id="portfolio">
-            <div class="container-fluid">
-                <div class="row no-gutter">
-                    <div class="col-lg-4 col-sm-6">
-                        <a href="#" class="portfolio-box">
-                            <img src="img/portfolio/1.jpg" class="img-responsive" alt="">
-                            <div class="portfolio-box-caption">
-                                <div class="portfolio-box-caption-content">
-                                    <div class="project-category text-faded">
-                                        Category
-                                    </div>
-                                    <div class="project-name">
-                                        Project Name
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <a href="#" class="portfolio-box">
-                            <img src="img/portfolio/2.jpg" class="img-responsive" alt="">
-                            <div class="portfolio-box-caption">
-                                <div class="portfolio-box-caption-content">
-                                    <div class="project-category text-faded">
-                                        Category
-                                    </div>
-                                    <div class="project-name">
-                                        Project Name
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <a href="#" class="portfolio-box">
-                            <img src="img/portfolio/3.jpg" class="img-responsive" alt="">
-                            <div class="portfolio-box-caption">
-                                <div class="portfolio-box-caption-content">
-                                    <div class="project-category text-faded">
-                                        Category
-                                    </div>
-                                    <div class="project-name">
-                                        Project Name
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <a href="#" class="portfolio-box">
-                            <img src="img/portfolio/4.jpg" class="img-responsive" alt="">
-                            <div class="portfolio-box-caption">
-                                <div class="portfolio-box-caption-content">
-                                    <div class="project-category text-faded">
-                                        Category
-                                    </div>
-                                    <div class="project-name">
-                                        Project Name
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <a href="#" class="portfolio-box">
-                            <img src="img/portfolio/5.jpg" class="img-responsive" alt="">
-                            <div class="portfolio-box-caption">
-                                <div class="portfolio-box-caption-content">
-                                    <div class="project-category text-faded">
-                                        Category
-                                    </div>
-                                    <div class="project-name">
-                                        Project Name
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <a href="#" class="portfolio-box">
-                            <img src="img/portfolio/6.jpg" class="img-responsive" alt="">
-                            <div class="portfolio-box-caption">
-                                <div class="portfolio-box-caption-content">
-                                    <div class="project-category text-faded">
-                                        Category
-                                    </div>
-                                    <div class="project-name">
-                                        Project Name
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
+        <section id="researchf14" class="bg-primary">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2 class="section-heading">Fall 2014</h2>
+                        <hr class="light">
                     </div>
                 </div>
-            </div>
-        </section> -->
-        <!--     <aside class="bg-dark">
-            <div class="container text-center">
-                <div class="call-to-action">
-                    <h2>Free Download at Start Bootstrap!</h2>
-                    <a href="#" class="btn btn-default btn-xl wow tada">Download Now!</a>
+                <div class="row">
+                    <h3 class="section-subheading"> <b>Began Work in DNA Read Mapping</b></h3>
+                    <p class="text-faded">
+                    </p>
                 </div>
             </div>
-        </aside> -->
-        <!--    <section id="contact">
+        </section>
+        <section id="contact">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2 text-center">
-                        <h2 class="section-heading">Let's Get In Touch!</h2>
+                        <h2 class="section-heading">Authors</h2>
                         <hr class="primary">
-                        <p>Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!</p>
+                        <p>This work was done under Prof. Onur Mutlu and with Hongyi Xin as part of the <a href="https://www.ece.cmu.edu/~safari/">CMU Safari Group</a>.</p>
                     </div>
-                    <div class="col-lg-4 col-lg-offset-2 text-center">
-                        <i class="fa fa-phone fa-3x wow bounceIn"></i>
-                        <p>123-456-6789</p>
+                </div>
+            </div>
+        </section>
+<!--         <section id="team" class="bg-light-gray">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2 class="section-heading">Our Amazing Team</h2>
+                        <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
                     </div>
-                    <div class="col-lg-4 text-center">
-                        <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
-                        <p><a href="mailto:your-email@your-domain.com">feedback@startbootstrap.com</a></p>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="team-member">
+                            <img src="img/header.jpg" class="img-responsive img-circle" alt="">
+                            <h4>Kay Garland</h4>
+                            <p class="text-muted">Lead Designer</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="team-member">
+                            <img src="img/header.jpg" class="img-responsive img-circle" alt="">
+                            <h4>Larry Parker</h4>
+                            <p class="text-muted">Lead Marketer</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="team-member">
+                            <img src="img/header.jpg" class="img-responsive img-circle" alt="">
+                            <h4>Diana Pertersen</h4>
+                            <p class="text-muted">Lead Developer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2 text-center">
+                        <p class="large text-muted"></p>
                     </div>
                 </div>
             </div>
