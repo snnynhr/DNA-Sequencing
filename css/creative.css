@@ -25,15 +25,20 @@ hr.light {
 }
 
 a {
-    color: #233CB9;
+    color: #2740BC;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
 }
 
+.bg-primary a {
+    color: #40DCFF
+}
+
 a:hover,
 a:focus {
-    color: #2740BC;
+    color: #617CFF;
+    text-decoration: none;
 }
 
 h1,

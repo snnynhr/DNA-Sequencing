@@ -76,7 +76,10 @@
                     <div class="col-lg-8 col-lg-offset-2 text-center">
                         <h2 class="section-heading">What is DNA Sequencing?</h2>
                         <hr class="light">
-                        <p class="text-faded">skdalfjaslkdfjalksdfjalksdjf</p>
+                        <p class="text-faded">Mapper speed remains a bottleneck in DNA read mapping. Processing and aligning billions
+                        of reads take a substantial amount of time, and there is a quest to build faster and better
+                        algorithms to improve runtime and throughput. In order to further the use DNA sequencing
+                        technology, it’s important to make it accessible and efficient.</p>
                     </div>
                 </div>
             </div>
@@ -90,25 +93,36 @@
                     </div>
                 </div>
                 <div class="row">
-                    <h3 class="section-subheading">Parallelizing DNA Mapping Architecture</h3>
+                    <h3 class="section-subheading"><b>Parallelizing DNA Mapping Architecture</b></h3>
+                    <p>
+                        Single processor compute capabilities have not improved significantly, and with the advent
+                        of multi-core and multi-threaded machines, parallelism is important in achieving the next
+                        generation of performance. Many aspects of DNA read mapping are inherently parallel, so
+                        this makes it a viable approach for achieving improvements in runtime.
+                        This research also focuses on optimizing and parallelizing a component of DNA read
+                        mapping pipeline, seed selection. We want to determine how efficiently we can distribute
+                        work over cores to achieve a large speedup.
+                    </p>
                 </div>
                 <div class="row">
-                    <h3 class="section-subheading"> Final Report</h3>
-                    <p> <a href="AcceleratingDNAReadMapping.pdf"> Final Report </a> </p>
+                    <h3 class="section-subheading"><b>Final Report</b></h3>
+                    <p> <a href="cmu/spring16/springfinalreport.pdf"> Parallelizing DNA Read Mapping and Alignment</a> </p>
                 </div>
                 <div class="row">
-                    <h3 class="section-subheading"> Project Milestones</h3>
+                    <h3 class="section-subheading"><b>Project Milestones</b></h3>
                     <ul>
-                        <li> <p> <a href="proposal.pdf"> Project Proposal</a> </p></li>
-                        <li> <p> <a href="milestone1.pdf"> Fall Milestone</a> </p> </li>
-                        <li> <p> <a href="milestone2.pdf"> January 22nd Milestone </a> </p> </li>
-                        <li> <p> <a href="milestone3.pdf"> February 8th Milestone</a> </p> </li>
-                        <li> <p> <a href="milestone4.pdf"> February 22nd Milestone</a> </p> </li>
-                        <li> <p> <a href="milestone5.pdf"> March 14th Milestone</a> </p> </li>
-                        <li> <p> <a href="milestone6.pdf"> March 28th Milestone</a> </p> </li>
-                        <li> <p> <a href="milestone7.pdf"> April 11th Milestone</a> </p> </li>
-
+                        <li> <p> <a href="cmu/spring16/milestone1.pdf"> Fall Milestone</a> </p> </li>
+                        <li> <p> <a href="cmu/spring16/milestone2.pdf"> January 22nd Milestone </a> </p> </li>
+                        <li> <p> <a href="cmu/spring16/milestone3.pdf"> February 8th Milestone</a> </p> </li>
+                        <li> <p> <a href="cmu/spring16/milestone4.pdf"> February 22nd Milestone</a> </p> </li>
+                        <li> <p> <a href="cmu/spring16/milestone5.pdf"> March 14th Milestone</a> </p> </li>
+                        <li> <p> <a href="cmu/spring16/milestone6.pdf"> March 28th Milestone</a> </p> </li>
+                        <li> <p> <a href="cmu/spring16/milestone7.pdf"> April 11th Milestone</a> </p> </li>
                     </ul>
+                </div>
+                <div class="row">
+                    <h3 class="section-subheading"><b>Project Proposal</b></h3>
+                    <p><a href="cmu/spring16/proposal.pdf"> Project Proposal</a></p>
                 </div>
             </div>
         </section>
@@ -119,6 +133,20 @@
                         <h2 class="section-heading">Fall 2015</h2>
                         <hr class="primary">
                     </div>
+                </div>
+                <div class="row">
+                    <h3 class="section-subheading"> <b>Improving Seed Selection in DNA Read Mapping</b></h3>
+                    <p class="text-faded">
+                        In this research, we focus on improving the complexity and runtime of seed-and-extend based mappers. Seed-and-extend mappers align reads by splitting reads into smaller seeds. These seeds are searched in the reference and used to align the reads. The complexity of the alignment is in correlation with the how often the seeds occur in the reference, or the frequency of the seeds. If seeds occur more frequently, a larger number of locations need to checked for potential mapping sites of the read, which increases complexity. Therefore it is imperative that we choose seeds which have the lowest sum of frequencies to minimize the number of mapping locations, and hence computation.
+                    </p>
+                    <p class="text-faded">
+                        Therefore the goal is to develop state-of-the-art seed selection schemes which are able to select seeds from a read in a memory efficient and cache efficient manner while minimizing the sum of the frequency of the seeds. These new heuristics and algorithms will be compared with existing seed selection schemes found in seed-and-extend mappers such as Hobbes and
+                        FastHash, among others.
+                    </p>
+                </div>
+                <div class="row">
+                    <h3 class="section-subheading"> <b>Final Report</b></h3>
+                    <p> <a href="cmu/fall15/AcceleratingDNAReadMapping.pdf"> Accelerating DNA Read Mapping and Alignment</a> </p>
                 </div>
             </div>
         </section>
