@@ -240,7 +240,7 @@ header .header-content .header-content-inner p {
         margin-right: auto;
         margin-left: auto;
         max-width: 80%;
-        font-size: 18px;
+        font-size: 22px;
     }
 }
 
@@ -404,9 +404,9 @@ fieldset[disabled] .btn-default.active {
 .btn-primary:active,
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
-    border-color: #ed431f;
+    border-color: #233CB9;
     color: #fff;
-    background-color: #ee4b28;
+    background-color: #191919;
 }
 
 .btn-primary:active,
@@ -478,4 +478,8 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #222;
+}
+
+.row {
+    padding: 0px 10px;
 }
