@@ -4,14 +4,17 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="">
-        <meta name="author" content="">
+        <meta name="description" content="Research in DNA Read Mapping done with the SAFARI group at Carnegie Mellon University.">
+        <meta name="author" content="Sunny Nahar">
         <title>Research in DNA Read Mapping</title>
+
+        <link rel="canonical" href="https://snnynhr.github.io/dna-sequencing" />
+
         <!-- Bootstrap Core CSS -->
         <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
         <!-- Custom Fonts -->
-        <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-        <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
         <!-- Plugin CSS -->
         <link rel="stylesheet" href="css/animate.min.css" type="text/css">
@@ -35,7 +38,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand page-scroll" href="#page-top">DNA Sequencing</a>
+                    <a class="navbar-brand page-scroll" href="#page-top">DNA Read Mapping</a>
                 </div>
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -44,7 +47,7 @@
                             <a class="page-scroll" href="#about">About</a>
                         </li>
                         <li>
-                            <a class="page-scroll" href="#links">Links</a>
+                            <a class="page-scroll" href="#researchf16">F16</a>
                         </li>
                         <li>
                             <a class="page-scroll" href="#researchs16">S16</a>
@@ -72,14 +75,14 @@
                 <div class="header-content-inner">
                     <h1>Accelerating DNA Read Mapping</h1>
                     <hr>
-                    <p>Improving algorithms for DNA Read Mapping to produce fast and efficient DNA mappers.</p>
+                    <p>Improving algorithms for DNA read mapping to produce fast and efficient DNA mappers.</p>
                     <a href="#about" class="btn btn-primary btn-xl page-scroll">
                         <i class="fa fa-arrow-down animated"></i>
                     </a>
                 </div>
             </div>
         </header>
-        <section class="bg-primary" id="about">
+        <section class="bg-dark" id="about">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2 text-center">
@@ -87,19 +90,33 @@
                         <hr class="light">
                     </div>
                     <div class="col-lg-8 col-lg-offset-2">
-                        <p class="text-faded"><b>DNA Sequencing</b> is the process of determining the sequence of base-pairs composing DNA. Shotgun sequencing splits DNA into small chunks called reads, and reads need to be reassembled or mapped into the overall DNA. Mapper speed remains a bottleneck in DNA read mapping. Processing and aligning billions of reads take a substantial amount of time, and there is a quest to build faster and better algorithms to improve runtime and throughput. In order to further the use DNA sequencing technology, it’s important to make it accessible and efficient.</p>
+                        <p class="text-faded">DNA Sequencing is the process of determining the sequence of base-pairs composing DNA. Shotgun sequencing splits DNA into small chunks called reads, and reads need to be reassembled or mapped into the overall DNA. Mapper speed remains a bottleneck in DNA read mapping. Processing and aligning billions of reads take a substantial amount of time, and there is a quest to build faster and better algorithms to improve runtime and throughput. In order to further the use DNA sequencing technology, it’s important to make it accessible and efficient.</p>
                     </div>
                 </div>
             </div>
         </section>
-        <section id="links" class="bg-dark">
-            <div class="container text-center">
+        <section id="researchf16" class="bg-primary">
+            <div class="container">
                 <div class="row">
-                    <div class="col-lg-12 col-md-6 text-center">
-                        <div class="service-box">
-                            <i class="fa fa-4x fa-file-text wow bounceIn text-primary"></i>
-                            <h3></h3>
-                            <a href="cmu/spring16/AcceleratingDNAReadMapping.pdf" class="btn btn-primary btn-xl wow">Research Work (F15 to S16)</a>
+                    <div class="col-lg-12 text-center">
+                        <h2 class="section-heading">Fall 2016</h2>
+                        <hr class="light">
+                    </div>
+                </div>
+                <div class="row">
+                    <h3 class="section-subheading"> <b>LEAP: Extending Landau-Vishkin</b></h3>
+                    <p class="text-faded">
+                        Approximate String Matching is a pivotal problem in the field of computer science. It serves as an integral component for many string algorithms, most notably, DNA read mapping and alignment. The improved LV algorithm proposes an improved dynamic programming strategy over the banded Smith-Waterman algorithm but suffers from support of a limited selection of scoring schemes. In this paper, we propose the Leaping Toad problem, a generalization of the approximate string matching problem, as well as LEAP, a generalization of the Landau-Vishkin’s algorithm that solves the Leaping Toad problem under a broader selection of scoring schemes.
+                    </p>
+                </div>
+                <div class="container text-center">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-8 text-center">
+                            <div class="service-box">
+                                <i class="fa fa-4x fa-file-text wow bounceIn text-default"></i>
+                                <h3></h3>
+                                <a href="https://www.biorxiv.org/content/biorxiv/early/2017/05/02/133157.full.pdf" class="btn btn-default btn-xl wow">Research Paper</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -125,45 +142,23 @@
                         work over cores to achieve a large speedup.
                     </p>
                 </div>
-                <div class="row">
-                    <h3 class="section-subheading"><b>Project Milestones</b></h3>
-                    <ul>
-                        <li> <p> <a href="cmu/spring16/milestone1.pdf"> Fall Milestone</a> </p> </li>
-                        <li> <p> <a href="cmu/spring16/milestone2.pdf"> January 22nd Milestone </a> </p> </li>
-                        <li> <p> <a href="cmu/spring16/milestone3.pdf"> February 8th Milestone</a> </p> </li>
-                        <li> <p> <a href="cmu/spring16/milestone4.pdf"> February 22nd Milestone</a> </p> </li>
-                        <li> <p> <a href="cmu/spring16/milestone5.pdf"> March 14th Milestone</a> </p> </li>
-                        <li> <p> <a href="cmu/spring16/milestone6.pdf"> March 28th Milestone</a> </p> </li>
-                        <li> <p> <a href="cmu/spring16/milestone7.pdf"> April 11th Milestone</a> </p> </li>
-                    </ul>
-                </div>
-                <div class="row">
-                    <h3 class="section-subheading"><b>Links</b></h3>
-                </div>
                 <div class="container text-center">
                     <div class="row">
-                        <div class="col-lg-3 col-md-5 text-center">
+                        <div class="col-lg-4 col-md-5 text-center">
                             <div class="service-box">
                                 <i class="fa fa-4x fa-file-text wow bounceIn text-primary"></i>
                                 <h3></h3>
-                                <a href="cmu/spring16/proposal.pdf" class="btn btn-primary btn-xl wow">Project Proposal</strong></a>
+                                <a href="cmu/spring16/springfinalreport.pdf" class="btn btn-primary btn-xl wow">Report</strong></a>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-5 text-center">
-                            <div class="service-box">
-                                <i class="fa fa-4x fa-file-text wow bounceIn text-primary"></i>
-                                <h3></h3>
-                                <a href="cmu/spring16/springfinalreport.pdf" class="btn btn-primary btn-xl wow">Final Report</strong></a>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-5 text-center">
+                        <div class="col-lg-4 col-md-5 text-center">
                             <div class="service-box">
                                 <i class="fa fa-4x fa-line-chart wow bounceIn text-primary"></i>
                                 <h3></h3>
                                 <a href="cmu/spring16/presentation.pdf" class="btn btn-primary btn-xl wow">Presentation</strong></a>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-5 text-center">
+                        <div class="col-lg-4 col-md-5 text-center">
                             <div class="service-box">
                                 <i class="fa fa-4x fa-image wow bounceIn text-primary"></i>
                                 <h3></h3>
@@ -192,16 +187,13 @@
                         FastHash, among others.
                     </p>
                 </div>
-                <div class="row">
-                    <h3 class="section-subheading"> <b>Links</b></h3>
-                </div>
                 <div class="container text-center">
                     <div class="row">
                         <div class="col-lg-6 col-md-8 text-center">
                             <div class="service-box">
                                 <i class="fa fa-4x fa-file-text wow bounceIn text-default"></i>
                                 <h3></h3>
-                                <a href="cmu/fall15/AcceleratingDNAReadMapping.pdf" class="btn btn-default btn-xl wow">Final Report</a>
+                                <a href="cmu/fall15/AcceleratingDNAReadMapping.pdf" class="btn btn-default btn-xl wow">Report</a>
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-8 text-center">
@@ -231,7 +223,7 @@
                 </div>
                 <div class="row">
                     <h3 class="section-subheading"><b>Paper</b></h3>
-                    <p> We published a paper in the <a href="http://bioinformatics.oxfordjournals.org/">Oxford Bioinformatics Journal</a>, link below. </p>
+                    <p> We published a paper in the <a href="https://bioinformatics.oxfordjournals.org/">Oxford Bioinformatics Journal</a>. </p>
                 </div>
                 <div class="container text-center">
                     <div class="row">
@@ -246,14 +238,14 @@
                             <div class="service-box">
                                 <i class="fa fa-4x fa-file-text wow bounceIn text-primary"></i>
                                 <h3></h3>
-                                <a href="http://bioinformatics.oxfordjournals.org/content/early/2016/01/20/bioinformatics.btv670.abstract" class="btn btn-primary btn-xl wow">Journal Link</strong></a>
+                                <a href="https://bioinformatics.oxfordjournals.org/content/early/2016/01/20/bioinformatics.btv670.abstract" class="btn btn-primary btn-xl wow">Journal Link</strong></a>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-5 text-center">
                             <div class="service-box">
                                 <i class="fa fa-4x fa-file-text wow bounceIn text-primary"></i>
                                 <h3></h3>
-                                <a href="http://arxiv.org/pdf/1506.08235v1.pdf" class="btn btn-primary btn-xl wow">Research Paper</strong></a>
+                                <a href="https://arxiv.org/pdf/1506.08235v1.pdf" class="btn btn-primary btn-xl wow">Research Paper</strong></a>
                             </div>
                         </div>
                     </div>
@@ -269,9 +261,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <h3 class="section-subheading"> <b>Began Work in DNA Read Mapping</b></h3>
-                    <p class="text-faded">
-                    </p>
+                    <p class="text-faded"> Began work in DNA Read Mapping.</p>
                 </div>
             </div>
         </section>
@@ -281,49 +271,12 @@
                     <div class="col-lg-8 col-lg-offset-2 text-center">
                         <h2 class="section-heading">Authors</h2>
                         <hr class="primary">
-                        <p>This work was done by Sunny Nahar under Prof. Onur Mutlu and Hongyi Xin as part of the <a href="https://www.ece.cmu.edu/~safari/">CMU Safari Group</a>.</p>
+                        <p>This work was done by <a class="emgen"> Sunny Nahar </a> under Prof. Onur Mutlu and Hongyi Xin as part of the <a href="https://www.ece.cmu.edu/~safari/">CMU Safari Group</a>.</p>
                     </div>
                 </div>
             </div>
         </section>
-<!--         <section id="team" class="bg-light-gray">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 text-center">
-                        <h2 class="section-heading">Our Amazing Team</h2>
-                        <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-4">
-                        <div class="team-member">
-                            <img src="img/header.jpg" class="img-responsive img-circle" alt="">
-                            <h4>Kay Garland</h4>
-                            <p class="text-muted">Lead Designer</p>
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="team-member">
-                            <img src="img/header.jpg" class="img-responsive img-circle" alt="">
-                            <h4>Larry Parker</h4>
-                            <p class="text-muted">Lead Marketer</p>
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="team-member">
-                            <img src="img/header.jpg" class="img-responsive img-circle" alt="">
-                            <h4>Diana Pertersen</h4>
-                            <p class="text-muted">Lead Developer</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2 text-center">
-                        <p class="large text-muted"></p>
-                    </div>
-                </div>
-            </div>
-        </section> -->
+
         <!-- jQuery -->
         <script src="js/jquery.js"></script>
         <!-- Bootstrap Core JavaScript -->
