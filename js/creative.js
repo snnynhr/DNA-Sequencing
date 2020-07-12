@@ -46,9 +46,7 @@
         var lace1 = "snnyxn";
         var lace2 = "hr@g";
         var lace3 = "mail.com";
-        var text = e.type === 'mouseleave' 
-                   ? 'Sunny Nahar'
-                   : lace1 + lace2 + lace3;
+        var text = lace1 + lace2 + lace3;
         $('.emgen').text(text).fadeIn();
     })
 
