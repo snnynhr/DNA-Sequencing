@@ -11,7 +11,7 @@ body {
 }
 
 body {
-    font-family: Merriweather,'Helvetica Neue',Arial,sans-serif;
+    font-family: Montserrat, Merriweather,'Helvetica Neue',Arial,sans-serif;
 }
 
 hr {
@@ -47,7 +47,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-family: Montserrat, 'Open Sans','Helvetica Neue',Arial,sans-serif;
 }
 
 p {
@@ -84,7 +84,7 @@ aside {
 
 .navbar-default {
     border-color: rgba(34,34,34,.05);
-    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-family: Montserrat, 'Open Sans','Helvetica Neue',Arial,sans-serif;
     background-color: #fff;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
@@ -93,7 +93,7 @@ aside {
 
 .navbar-default .navbar-header .navbar-brand {
     text-transform: uppercase;
-    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-family: Montserrat, 'Open Sans','Helvetica Neue',Arial,sans-serif;
     font-weight: 500;
     color: #233CB9;
 }
@@ -178,13 +178,27 @@ aside {
     }
 }
 
+.navbar-toggle {
+    position: relative;
+    float: right;
+    margin-top: 2px;
+    margin-bottom: 0px;
+    margin-right: 5px;
+    border: 0px solid transparent;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #fff;
+}
+
 header {
     position: relative;
     width: 100%;
+    height: 100vh;
     min-height: auto;
     text-align: center;
     color: #fff;
-    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(0,0,0,0.4), rgba(0,0,0,0.6), rgba(0,0,0,0.7), rgba(0,0,0,0.7), rgba(0,0,0,0.6), rgba(0,0,0,0.4), rgba(255,0,0,0)), url(../img/header.jpg);
+    background-image: linear-gradient(to right, rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../img/header.jpg);
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -195,7 +209,7 @@ header {
 header .header-content {
     position: relative;
     width: 100%;
-    padding: 100px 15px;
+    padding: 30vh 15px;
     text-align: center;
 }
 
@@ -422,5 +436,5 @@ body {
 }
 
 .row {
-    padding: 0px 10px;
+    padding: 0px 25px;
 }

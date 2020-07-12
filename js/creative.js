@@ -28,12 +28,12 @@
     });
 
     // Fit Text Plugin for Main Header
-    $("h1").fitText(
-        1.2, {
-            minFontSize: '35px',
-            maxFontSize: '65px'
-        }
-    );
+    // $("h1").fitText(
+    //     1.2, {
+    //         minFontSize: '35px',
+    //         maxFontSize: '65px'
+    //     }
+    // );
 
     // Offset for Main Navigation
     $('#mainNav').affix({
@@ -43,8 +43,8 @@
     })
 
     $('.emgen').on('mouseenter mouseleave', function(e) {
-        var lace1 = "sxna";
-        var lace2 = "har@g";
+        var lace1 = "snnyxn";
+        var lace2 = "hr@g";
         var lace3 = "mail.com";
         var text = e.type === 'mouseleave' 
                    ? 'Sunny Nahar'
